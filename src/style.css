@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-color {
+  background: #151616;
+}
+.content-bg-color {
+  background: #171b1a;
+}
+
+.progress-bar-custom-widthMax {
+  width: 830px;
+}
+
+.nav-item {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item.active {
+  text-decoration: underline;
+  color: yellow;
+}

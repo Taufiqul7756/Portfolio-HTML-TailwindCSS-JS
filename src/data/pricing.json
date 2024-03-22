@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "category": "Intro",
+    "price": "29",
+    "openOffer": ["Interface Design", "Front-end Code", "Back-end Development"],
+    "closeOffer": [
+      "Search Engine Optimization",
+      "Awesome Support",
+      "Responsive site",
+      "Easy in use",
+      "Useful site",
+      "Speedy web"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Base",
+    "price": "29",
+    "openOffer": [
+      "Interface Design",
+      "Front-end Code",
+      "Back-end Development",
+      "Search Engine Optimization"
+    ],
+    "closeOffer": [
+      "Awesome Support",
+      "Responsive site",
+      "Easy in use",
+      "Useful site",
+      "Speedy web"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Popular",
+    "price": "29",
+    "openOffer": ["Interface Design", "Front-end Code", "Back-end Development"],
+    "closeOffer": [
+      "Search Engine Optimization",
+      "Awesome Support",
+      "Responsive site",
+      "Easy in use",
+      "Useful site",
+      "Speedy web"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Enterprise",
+    "price": "29",
+    "openOffer": ["Interface Design", "Front-end Code", "Back-end Development"],
+    "closeOffer": [
+      "Search Engine Optimization",
+      "Awesome Support",
+      "Responsive site",
+      "Easy in use",
+      "Useful site",
+      "Speedy web"
+    ]
+  }
+]
