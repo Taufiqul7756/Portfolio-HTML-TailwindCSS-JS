@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "/src/assets/blog/first.png",
+    "img": "./src/assets/blog/first.png",
     "title": "The artist vocation is to send light into the human heart.",
     "des": "Lorem Ipsum is simply dummy text the printing typesetting industry. Lorem Ipsum has been",
     "date": "28 Apr 2020",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "img": "/src/assets/blog/second.png",
+    "img": "./src/assets/blog/second.png",
     "title": "The purpose of art is washing the dust of daily life off our souls.",
     "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     "date": "30 Apr 2020",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "img": "/src/assets/blog/third.png",
+    "img": "./src/assets/blog/third.png",
     "title": "Art is the lie that enables us to realize the truth.",
     "des": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     "date": "02 May 2020",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "img": "/src/assets/blog/forth.png",
+    "img": "./src/assets/blog/forth.png",
     "title": "Art is the only way to run away without leaving home.",
     "des": "It has survived not only five centuries, but also the leap into electronic typesetting.",
     "date": "05 May 2020",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "img": "/src/assets/blog/fifth.png",
+    "img": "./src/assets/blog/fifth.png",
     "title": "Every artist was first an amateur.",
     "des": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.",
     "date": "08 May 2020",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "img": "/src/assets/blog/sixth.png",
+    "img": "./src/assets/blog/sixth.png",
     "title": "Art enables us to find ourselves and lose ourselves at the same time.",
     "des": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     "date": "10 May 2020",
