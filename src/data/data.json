@@ -1,33 +1,33 @@
 [
   {
     "id": 1,
-    "img": "assets/web-ui.png",
+    "img": "/src/assets/web-ui.png",
     "category": "Graphic Design",
     "text": "Hello"
   },
   {
     "id": 2,
-    "img": "assets/bag.png",
+    "img": "/src/assets/bag.png",
     "category": "Graphic Design"
   },
   {
     "id": 3,
-    "img": "assets/watch.png",
+    "img": "/src/assets/watch.png",
     "category": "UI/UX Design"
   },
   {
     "id": 4,
-    "img": "assets/web-ui.png",
+    "img": "/src/assets/web-ui.png",
     "category": "Mobile Apps"
   },
   {
     "id": 5,
-    "img": "assets/watch.png",
+    "img": "/src/assets/watch.png",
     "category": "Mobile Apps"
   },
   {
     "id": 6,
-    "img": "assets/bag.png",
+    "img": "/src/assets/bag.png",
     "category": "Photography"
   }
 ]
