@@ -33,7 +33,7 @@ function showCategory(category) {
   imageDisplay.innerHTML = "";
 
   // Fetch data from JSON file
-  fetch("/src/data/data.json")
+  fetch("./src/data/data.json")
     .then((response) => response.json())
     .then((data) => {
       // Filter images based on the selected category
