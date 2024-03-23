@@ -10,7 +10,7 @@
 }
 
 .progress-bar-custom-widthMax {
-  width: 830px;
+  width: 705px;
 }
 
 .nav-item {
@@ -72,11 +72,25 @@
   background-size: 22.63px 22.63px;
 }
 
-@media (max-width: 639px) {
+@media (max-width: 784px) {
   .triangle,
   .hex,
   .verticle-text,
   .verticle {
     display: none;
+  }
+}
+
+@media (max-width: 867px) {
+  /* Medium devices */
+  .progress-bar-custom-widthMax {
+    width: 580px;
+  }
+}
+
+@media (max-width: 639px) {
+  /* Small devices */
+  .progress-bar-custom-widthMax {
+    width: 320px;
   }
 }
