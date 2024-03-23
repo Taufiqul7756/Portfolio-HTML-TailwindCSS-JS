@@ -52,31 +52,31 @@
                 <div class="">
                   <i
                     id="homeRedirectIcon"
-                    class="fa-solid fa-house text-yellow-500 cursor-pointer"
+                    class="fa-solid fa-house nav-icon text-gray-300 cursor-pointer"
                   ></i>
                 </div>
                 <div class="">
                   <i
                     id="redirectIcon"
-                    class="fa-regular fa-user text-gray-500 cursor-pointer"
+                    class="fa-regular fa-user nav-icon text-gray-300 cursor-pointer"
                   ></i>
                 </div>
                 <div class="">
                   <i
                     id="portfolioRedirectIcon"
-                    class="fa-solid fa-briefcase text-gray-500 cursor-pointer"
+                    class="fa-solid fa-briefcase nav-icon text-gray-300 cursor-pointer"
                   ></i>
                 </div>
                 <div class="">
                   <i
                     id="blogsRedirectIcon"
-                    class="fa-regular fa-pen-to-square text-gray-500 cursor-pointer"
+                    class="fa-regular fa-pen-to-square text-gray-300 nav-icon cursor-pointer"
                   ></i>
                 </div>
                 <div class="">
                   <i
                     id="contactRedirectIcon"
-                    class="fa-solid fa-phone cursor-pointer text-gray-500"
+                    class="fa-solid fa-phone nav-icon text-gray-300 cursor-pointer"
                   ></i>
                 </div>
               </div>
@@ -524,5 +524,25 @@
     <script src="./src/js/blogs.js"></script>
     <script src="./src/js/pricing.js"></script>
     <script src="./src/js/navigation.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Get all the icon elements
+        var icons = document.querySelectorAll(".nav-icon");
+
+        // Add click event listener to each icon
+        icons.forEach(function (icon) {
+          icon.addEventListener("click", function () {
+            // Remove the yellow color class from all icons
+            icons.forEach(function (icon) {
+              icon.classList.remove("text-yellow-500");
+            });
+
+            // Add yellow color class to the clicked icon
+            icon.classList.add("text-yellow-500");
+          });
+        });
+      });
+    </script>
   </body>
 </html>
