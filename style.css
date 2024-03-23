@@ -23,3 +23,21 @@
   text-decoration: underline;
   color: yellow;
 }
+
+.hex {
+  width: 70px;
+  height: 250px;
+  background: #000000;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  position: relative;
+  top: -76px;
+  left: 62px;
+  border-left: 10px solid transparent; /* Adjust the width of the left border */
+  border-right: 65px solid transparent; /* Adjust the width of the right border */
+  border-top: 100px solid #171b1a; /* Adjust the height and color of the triangle */
+  position: relative;
+}
