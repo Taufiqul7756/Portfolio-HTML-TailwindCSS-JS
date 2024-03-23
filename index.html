@@ -12,7 +12,7 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="home-color">
+    <div id="homeSection" class="home-color">
       <h1 class="text-5xl font-bold text-gray-800 p-10 px-20">Home</h1>
 
       <div class="full-content lg:mx-28 md:mx-12 sm:mx-6 content-bg-color">
@@ -49,26 +49,33 @@
               <div class="p-4 grid justify-center items-center">
                 <div class="">
                   <i
+                    id="homeRedirectIcon"
                     class="fa-solid fa-house text-yellow-500 cursor-pointer"
                   ></i>
                 </div>
                 <div class="">
                   <i
+                    id="redirectIcon"
                     class="fa-regular fa-user text-gray-500 cursor-pointer"
                   ></i>
                 </div>
                 <div class="">
                   <i
+                    id="portfolioRedirectIcon"
                     class="fa-solid fa-briefcase text-gray-500 cursor-pointer"
                   ></i>
                 </div>
                 <div class="">
                   <i
+                    id="blogsRedirectIcon"
                     class="fa-regular fa-pen-to-square text-gray-500 cursor-pointer"
                   ></i>
                 </div>
                 <div class="">
-                  <i class="fa-solid fa-phone cursor-pointer text-gray-500"></i>
+                  <i
+                    id="contactRedirectIcon"
+                    class="fa-solid fa-phone cursor-pointer text-gray-500"
+                  ></i>
                 </div>
               </div>
 
@@ -163,6 +170,7 @@
         <!-- resume  > Education part -->
 
         <div
+          id="resume"
           class="p-6 md:p-1 lg:p-1 sm:px-2 md:px-8 lg:px-16 lg:ml-96 md:ml-16 sm:ml-6 mt-16"
         >
           <h1 class="text-white font-bold text-2xl mb-4">Resume</h1>
@@ -360,6 +368,7 @@
         <!-- Portfolio Part -->
 
         <div
+          id="portfolioSection"
           class="p-6 md:p-1 lg:p-1 lg:px-16 md:px-4 sm:px-3 lg:ml-96 md:ml-16 sm:ml-6 mt-10"
         >
           <span class="text-2xl font-bold text-white">Portfolio</span>
@@ -411,6 +420,7 @@
         ></div>
         <!-- blog part -->
         <div
+          id="blogSection"
           class="p-6 md:p-1 lg:p-1 lg:px-16 md:px-4 sm:px-3 lg:ml-96 md:ml-16 sm:ml-6 mt-10 lg:mr-16 md:mr-12 sm:mr-12"
         >
           <span class="text-2xl font-bold text-white">Blog</span>
@@ -432,6 +442,7 @@
 
         <!-- Contact Part  -->
         <div
+          id="contactSection"
           class="p-6 md:p-1 lg:p-1 lg:px-16 md:px-4 sm:px-3 lg:ml-96 md:ml-16 sm:ml-6 mt-10 lg:mr-16 md:mr-12 sm:mr-8"
         >
           <span class="text-2xl font-bold text-white">Contact</span>
@@ -510,5 +521,55 @@
     <script src="./src/js/script.js"></script>
     <script src="./src/js/blogs.js"></script>
     <script src="./src/js/pricing.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Get the icon elements
+        var homeIcon = document.getElementById("homeRedirectIcon");
+        var resumeIcon = document.getElementById("redirectIcon");
+        var contactIcon = document.getElementById("contactRedirectIcon");
+        var blogIcon = document.getElementById("blogsRedirectIcon");
+        var portfolioIcon = document.getElementById("portfolioRedirectIcon");
+
+        // Add click event listener for home icon
+        homeIcon.addEventListener("click", function () {
+          // Scroll smoothly to the contact section
+          document.getElementById("homeSection").scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+
+        // Add click event listener for resume icon
+        resumeIcon.addEventListener("click", function () {
+          // Scroll smoothly to the resume section
+          document.getElementById("resume").scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+
+        // Add click event listener for contact icon
+        contactIcon.addEventListener("click", function () {
+          // Scroll smoothly to the contact section
+          document.getElementById("contactSection").scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+
+        // Add click event listener for blog icon
+        blogIcon.addEventListener("click", function () {
+          // Scroll smoothly to the contact section
+          document.getElementById("blogSection").scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+
+        // Add click event listener for skills icon
+        portfolioIcon.addEventListener("click", function () {
+          // Scroll smoothly to the contact section
+          document.getElementById("portfolioSection").scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
   </body>
 </html>
