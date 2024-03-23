@@ -1,4 +1,4 @@
-fetch("/src/data/pricing.json")
+fetch("./src/data/pricing.json")
   .then((response) => response.json())
   .then((data) => {
     const pricingCardsContainer = document.getElementById("pricingCards");
