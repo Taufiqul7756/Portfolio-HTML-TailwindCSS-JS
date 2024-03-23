@@ -41,3 +41,10 @@
   border-top: 100px solid #171b1a; /* Adjust the height and color of the triangle */
   position: relative;
 }
+
+@media (max-width: 639px) {
+  .triangle,
+  .hex {
+    display: none;
+  }
+}
