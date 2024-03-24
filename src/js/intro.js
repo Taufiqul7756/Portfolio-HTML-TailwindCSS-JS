@@ -4,7 +4,7 @@ fetch("./src/data/intro.json")
     const introSection = document.getElementById("introSection");
     data.forEach((intro) => {
       const introduction = `
-      <h2 class="text-yellow-400 font-bold text-xs">INTRODUCTION</h2>
+      <h2 class="text-yellow-400 font-bold text-xs mt-5">INTRODUCTION</h2>
       <p class="font-bold lg:text-3xl md:text-3xl sm:text-2xl text-white">${intro.firstLineTitle}</p>
       <p class="font-bold lg:text-3xl md:text-3xl sm:text-2xl text-white">${intro.secondLineTitle}</p>
       <p class="mt-2">${intro.age} years /  ${intro.name} / ${intro.location}</p>
