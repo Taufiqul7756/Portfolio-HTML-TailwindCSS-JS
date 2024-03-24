@@ -9,6 +9,15 @@
   background: #171b1a;
 }
 
+/* #sidebarContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #2423238d;
+  z-index: 1000;
+} */
+
 .progress-bar-custom-widthMax {
   width: 705px;
 }
